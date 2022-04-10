@@ -25,6 +25,7 @@
   box-sizing: border-box;
   border-radius: 5px;
   font-size: 24px;
+  padding-left: 5px;
 }
 .form-submit {
   width: 415px;
@@ -36,4 +37,8 @@
 }
 .form-link {
   color: #ff9900;
+  cursor: pointer;
+}
+.form-submit:hover {
+  background-color: rgba(255, 153, 0, 0.5);
 }
